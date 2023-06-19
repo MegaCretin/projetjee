@@ -12,6 +12,7 @@ import javax.persistence.Entity;
 @NoArgsConstructor
 public class Concessionnaire extends Utilisateur {
 
+    //blablabla
     private String numeroDeTelephone;
 
 }

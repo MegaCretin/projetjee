@@ -13,6 +13,7 @@ import java.time.LocalDateTime;
 @Data
 public class ClientDto extends UtilisateurDto {
 
+    //blablabla
     private LocalDateTime dateHeureInscription;
     private LienDeParente lienDeParente;
     private Pays pays;
