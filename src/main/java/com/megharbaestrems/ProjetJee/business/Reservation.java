@@ -23,6 +23,7 @@ public class Reservation {
     @NotBlank(message = "Merci de rentrer une date de début")
     private LocalDate dateDebut;
 
+    //blablabla
     @Column(nullable = false)
     @NotBlank(message = "Merci de rentrer une date de fin")
     private LocalDate dateFin;
@@ -47,6 +48,7 @@ public class Reservation {
     @NotNull(message = "Merci de rentrer une année d'expiration")
     private Byte anneeExpiration;
 
+    //blablabla
     @Column(nullable = false)
     @NotBlank(message = "Merci de rentrer un cryptogramme")
     private String cryptogramme;

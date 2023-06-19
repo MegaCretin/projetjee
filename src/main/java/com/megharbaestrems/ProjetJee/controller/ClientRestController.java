@@ -22,6 +22,7 @@ public class ClientRestController {
 
     private ClientService clientService;
 
+    //blablabla
     @GetMapping("clients")
     public List<Client> getClients() {
         return clientService.recupererClients();

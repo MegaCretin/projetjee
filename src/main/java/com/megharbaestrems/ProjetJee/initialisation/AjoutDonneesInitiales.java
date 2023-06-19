@@ -25,6 +25,7 @@ public class AjoutDonneesInitiales implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
+        //blablabla
         Instant debut = Instant.now();
         System.out.println("Ajout donéees initiales");
         ajoutFiles(7);
@@ -48,6 +49,7 @@ public class AjoutDonneesInitiales implements CommandLineRunner {
     }
 
     private void ajoutParasols(){
+        //blablabla
         if (parasolDoa.count() == 0) {
             fileDao.findAll().forEach(file -> {
                 for (int i = 1; i <= 8; i++){
