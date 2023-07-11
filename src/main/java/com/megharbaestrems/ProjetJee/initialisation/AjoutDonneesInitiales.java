@@ -27,7 +27,7 @@ public class AjoutDonneesInitiales implements CommandLineRunner {
     public void run(String... args) throws Exception {
         //blablabla
         Instant debut = Instant.now();
-        System.out.println("Ajout donéees initiales");
+        System.out.println("Ajout donéees initiales (le plus fort)");
         ajoutFiles(7);
         ajoutParasols();
         ajoutLiensDeParentes();
